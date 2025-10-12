@@ -42,6 +42,7 @@ Common options:
 - `-s <N>`  Number of SNPs to use (default: all segregating)  
 - `-t <T>`  CPU threads (for non-GPU parts; default: OpenMP auto)  
 - `-o <file>` Output filename (default: `<prefix>_currentNe_OUTPUT.txt`)  
+- `-k <int>` Important, please see original description in currentNe 
 - `-q`      Quiet: only print Ne (and with `-v` also 50% & 90% CI)  
 - `-v`      With `-q`, also print CIs  
 - `-p`      Print full analysis to stdout instead of file
@@ -56,6 +57,7 @@ Examples:
 
 # VCF
 ./currentNe_gpu cohort.vcf 19 -t 8
+./currentNe_gpu cohort.vcf 19 -t 8 -k 1 
 ```
 **-t 8 is enough**
 
