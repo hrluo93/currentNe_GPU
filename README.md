@@ -3,7 +3,7 @@
  Modified GPU-accelerated `currentNe`(https://github.com/esrud/currentNe) with **PED/MAP**, and **VCF** input support, plus **complete Ne estimation & confidence intervals**. 
 The GPU computes weighted LD (d²) accumulations; Ne and CIs follow the original integration + neural-net variance model.
 
-Requires: **NVIDIA GPU > Pascal (SM ≥ 6.0)**, NVIDIA driver + CUDA Toolkit (11.4+), gcc/g++ & make, **and ~1 GB free GPU memory** (more for large datasets).
+Requires: **NVIDIA GPU ≥ Pascal (SM ≥ 6.0)**, NVIDIA driver + CUDA Toolkit (11.4+), gcc/g++ & make, **and ~1 GB free GPU memory** (more for large datasets).
 
 Santiago, E., Caballero, A., Köpke, C., & Novo, I. (2024). Estimation of the contemporary effective population size from SNP data while accounting for mating structure. Molecular Ecology Resources, 24, e13890. https://doi.org/10.1111/1755-0998.13890
 
