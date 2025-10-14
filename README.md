@@ -1,7 +1,7 @@
 # currentNe_GPU
 
  Modified GPU-accelerated `currentNe`(https://github.com/esrud/currentNe) with **PED/MAP**, and **VCF** input support, plus **complete Ne estimation & confidence intervals**. 
-The GPU computes weighted LD (d²) accumulations; Ne and CIs follow the original integration + neural-net variance model.
+The GPU computes weighted LD (d²) accumulations (FP64); Ne and CIs follow the original integration + neural-net variance model.
 
 Requires: **NVIDIA GPU ≥ Pascal (SM ≥ 6.0)**, NVIDIA driver + CUDA Toolkit (11.4+), gcc/g++ & make, **and ~1 GB free GPU memory** (more for large datasets).
 
