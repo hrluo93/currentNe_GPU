@@ -3,8 +3,8 @@
  *
  * Description: Neural Network for Ne Estimation (GPU/CPU hybrid)
  *
- * Authors: Enrique Santiago, Carlos Köpke
- * 
+ * CurrentNe original Authors: Enrique Santiago, Carlos Köpke
+ * CurrentNe_gpu author: hrluo93@foxmail.com
  * Notes for this edition:
  * - Add default ctor for AppParams (ProgressStatus holds a std::mutex)
  * - Replace stack array valid_idx[...] with std::vector<int>
