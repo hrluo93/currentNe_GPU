@@ -17,8 +17,7 @@ Santiago, E., Köpke, C. & Caballero, A. Accounting for population structure and
 ```bash
 unzip currentNe_gpu_full.zip
 cd currentNe_gpu_full
-make ARCH=sm_89        # choose your GPU's SM arch (sm_70, sm_80, sm_86, sm_89 ...)
-ulimit -s unlimited    #default Maxloci setting to 20 million
+make ARCH=sm_89        # choose your GPU's SM arch (sm_70, sm_80, sm_86, sm_89 ...) also should be set `ARCH ?=sm_89` in Makefile accordingly.
 ```
 This creates `./currentNe_gpu`.
 
@@ -32,6 +31,7 @@ This creates `./currentNe_gpu_cpu` (OpenMP).
 
 General form:
 ```bash
+ulimit -s unlimited    #default Maxloci setting to 20 million, can increase in the cpp file.
 ./currentNe_gpu <datafile> <num_chromosomes> [options]
 ```
 
