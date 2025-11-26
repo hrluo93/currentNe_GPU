@@ -38,8 +38,8 @@ ulimit -s unlimited    #default Maxloci setting to 20 million, can increase in t
 - `<datafile>`: one of
   - `prefix.vcf`
   - `prefix.ped` (requires `prefix.map` in the same folder)
-  - `prefix.tped` (with individuals as columns following first 4 fields)
-- `<num_chromosomes>`: required (e.g., `23` for human-like, or the true count for your organism).
+  - `prefix.tped` (with individuals as columns following the first 4 fields)
+- `<num_chromosomes>`: required (e.g., `22` for human-like autosomes, or the true count for your organism's autosomes).
 
 Common options:
 - `-s <N>`  Number of SNPs to use (default: all segregating)  
