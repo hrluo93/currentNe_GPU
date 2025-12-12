@@ -66,7 +66,7 @@ Examples:
 
 ## Output
 - Full report file (unless `-p`): `<prefix>_currentNe_OUTPUT.txt`  
-  Includes: input stats, d², expected/observed het, **Ne point estimate**, **50%/90% CI**; plus between-chromosome-only Ne if map/chrom info present.
+  Includes: input stats, d², expected/observed het, **Ne point estimate**, **50%/90% CI**.
 
 ## Notes
 - Double `atomicAdd` requires GPU architecture **sm_60+**; set `ARCH` accordingly.
