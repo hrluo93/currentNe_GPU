@@ -7,7 +7,11 @@ Requires: **NVIDIA GPU ≥ Pascal (SM ≥ 6.0)**, NVIDIA driver + CUDA Toolkit (
 
 **Cooling note:** **Not recommended to run on passively cooled (fanless) Tesla GPUs** without server-grade, front-to-back airflow. The FP64 path saturates the FP units for extended periods, creating stress-test-level thermal load (stress FPU). Inadequate airflow will cause throttling or faults.
 
-Citations:
+
+CurrentNe_gpu author: hrluo93@foxmail.comCitations:
+
+CurrentNe original Authors: Enrique Santiago, Carlos Köpke
+
 Santiago, E., Caballero, A., Köpke, C., & Novo, I. (2024). Estimation of the contemporary effective population size from SNP data while accounting for mating structure. Molecular Ecology Resources, 24, e13890. https://doi.org/10.1111/1755-0998.13890
 
 Santiago, E., Köpke, C. & Caballero, A. Accounting for population structure and data quality in demographic inference with linkage disequilibrium methods. Nat Commun 16, 6054 (2025). https://doi.org/10.1038/s41467-025-61378-w## 
