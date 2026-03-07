@@ -5,6 +5,8 @@ GPU-accelerated fork of currentNe adding PED/MAP and VCF input, and providing en
 
 Requires: **NVIDIA GPU ≥ Pascal (SM ≥ 6.0)**, NVIDIA driver + CUDA Toolkit (12+), gcc/g++ & make, **and ~1 GB free GPU memory** (more for large datasets).
 
+Update: **OpenCL version is available** Under **Release  currentNe-ocl.zip**
+
 **Cooling note:** **Not recommended to run on passively cooled (fanless) Tesla GPUs** without server-grade, front-to-back airflow. The FP64 path saturates the FP units for extended periods, creating stress-test-level thermal load (stress FPU). Inadequate airflow will cause throttling or faults.
 
 
@@ -32,6 +34,14 @@ This creates `./currentNe_gpu`.
 make cpu
 ```
 This creates `./currentNe_gpu_cpu` (OpenMP).
+
+### OpenCL build (Only tested on Nvidia GPU)
+```bash
+unzip currentNe-ocl.zip
+cd currentNe-ocl
+make -f Makefile.opencl
+```
+This creates `./currentNe_ocl`.
 
 ## Run
 
