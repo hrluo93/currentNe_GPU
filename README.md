@@ -35,7 +35,7 @@ make cpu
 ```
 This creates `./currentNe_gpu_cpu` (OpenMP).
 
-### OpenCL build (Only tested on Nvidia GPU)
+### OpenCL build (Tested on Nvidia GPU)
 ```bash
 unzip currentNe-ocl.zip
 cd currentNe-ocl
