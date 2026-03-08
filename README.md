@@ -80,6 +80,11 @@ Examples:
 ```
 **-t 8 is enough**
 
+
+## Benchmark
+<img width="1918" height="1112" alt="24653fa9-4cc0-43db-a257-d77286183598" src="https://github.com/user-attachments/assets/5102ee87-cb21-4a42-9338-249091d57336" />
+
+
 ## Output
 - Full report file (unless `-p`): `<prefix>_currentNe_OUTPUT.txt`  
   Includes: input stats, d², expected/observed het, **Ne point estimate**, **50%/90% CI**.
