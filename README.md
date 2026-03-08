@@ -7,6 +7,9 @@ Requires: **NVIDIA GPU ≥ Pascal (SM ≥ 6.0)**, NVIDIA driver + CUDA Toolkit (
 
 Update: **OpenCL version is available** Under **Release  currentNe-ocl.zip**
 
+## Benchmark
+<img width="1942" height="1118" alt="2adc8596-91cf-45c7-a114-bd76c468ed27" src="https://github.com/user-attachments/assets/ed0bb2f3-2682-47c7-9c66-7d370b02cacf" />
+
 **Cooling note:** **Not recommended to run on passively cooled (fanless) Tesla GPUs** without server-grade, front-to-back airflow. The FP64 path saturates the FP units for extended periods, creating stress-test-level thermal load (stress FPU). Inadequate airflow will cause throttling or faults.
 
 
@@ -79,11 +82,6 @@ Examples:
 ./currentNe_gpu cohort.vcf 19 -t 8 -k 1 
 ```
 **-t 8 is enough**
-
-
-## Benchmark
-<img width="1918" height="1112" alt="24653fa9-4cc0-43db-a257-d77286183598" src="https://github.com/user-attachments/assets/5102ee87-cb21-4a42-9338-249091d57336" />
-
 
 ## Output
 - Full report file (unless `-p`): `<prefix>_currentNe_OUTPUT.txt`  
