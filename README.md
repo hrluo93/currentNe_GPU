@@ -8,7 +8,7 @@ Requires: **NVIDIA GPU ≥ Pascal (SM ≥ 6.0)**, NVIDIA driver + CUDA Toolkit (
 **OpenCL version is available** Under **Release  currentNe-ocl.zip** can be used on Nvidia, AMD and Intel GPUs.
 **The CUDA and OpenCL implementations produce results that are fully consistent with the original CPU version.**
 
-An Apple Metal FP32 version is also available for testing purposes. Because **Metal does not support FP64, the FP32 estimated d² and Ne values may differ from those of the CPU version**. The FP32 version is provided only as a test of Metal GPU computing (individuals x SNPs pairs=132416165908, CPU 464.501 sec **Vs.** GPU 0.448286 sec). If needed, please contact the CurrentNe_gpu author: hrluo93@foxmail.com .
+An Apple Metal FP32 version is also available for testing purposes. Because **Metal does not support FP64, the FP32 estimated d² and Ne values may differ from those of the CPU version**. The FP32 version is provided only as a test of Metal GPU computing (individuals x SNPs pairs=132416165908, M3pro CPU 464.501 sec **Vs.** GPU 0.448286 sec). If needed, please contact the CurrentNe_gpu author: hrluo93@foxmail.com .
 
 ## Benchmark
 <img width="1942" height="1118" alt="2adc8596-91cf-45c7-a114-bd76c468ed27" src="https://github.com/user-attachments/assets/ed0bb2f3-2682-47c7-9c66-7d370b02cacf" />
