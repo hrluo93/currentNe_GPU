@@ -1,6 +1,6 @@
 # currentNe_GPU
 
- Modified GPU-accelerated `currentNe`(https://github.com/esrud/currentNe) that delivers a more than **20-fold** speedup while producing results **identical to the original CPU implementation**, including current effective population size (Nₑ) estimates and confidence intervals.
+ Modified GPU-accelerated `currentNe`(https://github.com/esrud/currentNe) that delivers a more than **20-fold** speedup while producing results **are fully consistent with the original CPU implementation**, including current effective population size (Nₑ) estimates and confidence intervals.
  
 The GPU path computes weighted LD (d²) in **FP64** using atomicAdd(double*), while Nₑ and CIs follow the original integration and neural-network variance model.
 
